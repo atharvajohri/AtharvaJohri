@@ -1,0 +1,28 @@
+/* Common Styles */
+.bordered {border:solid}
+.bold600 {font-weight: 600;}
+.bold400 {font-weight: 400;}
+.bold300 {font-weight: 300;}
+.text-center {text-align: center;}
+.importantHide {display: none !important;}
+.overflowAuto {overflow:auto}
+
+.simple-button {background:#555;color:#ddd;opacity:0.8;border-radius:2px;font-family: "Open Sans", sans-serif;cursor:pointer;padding:2px 5px;display: inline-block; font-size:12px;}
+	.simple-button:hover {opacity: 0.9}
+	
+.simple-input {padding:2px;font-family: "Open Sans", sans-serif;}
+
+/* Container/element styles */
+#global-loader {width: 100px; margin: auto auto; position:fixed; top:10px; padding:5px; text-align: center;z-index:10500}
+
+#main-container {width:1000px;padding:20px 10px;margin:auto auto;font-family: "Open Sans", sans-serif;}
+
+#mc-title-container {position:relative;z-index:100;}
+
+#mctc-name-container {text-transform: uppercase; font-size: 50px;color:#555}
+#mctc-attribute-container {text-transform: uppercase;  letter-spacing: 5px; }
+
+#hoverable-overlay {position:fixed;top:0px;left:0px;z-index:10;overflow:hidden}
+
+.hoverer {border:1px solid #efefef;float:left;background: transparent;}
+
